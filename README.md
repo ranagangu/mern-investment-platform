@@ -1,12 +1,17 @@
-# MERN Investment Platform Test
+## MERN Investment Platform
 
-This project implements the tasks from `Mern Dev Tech.Test.pdf`:
+A full-stack MERN (MongoDB, Express.js, React.js, Node.js) investment management platform developed to demonstrate modern web application development practices, secure authentication, financial data management, and referral-based reward systems.
 
-- MongoDB/Mongoose schemas for users, investments, referrals/level income, and ROI history.
-- Secure JWT APIs for registration/login, investments, dashboard summaries, and referral trees.
-- Idempotent daily ROI and referral-level income calculation.
-- A React dashboard that fetches API data and renders totals, charts, tables, loading states, and a nested referral tree.
-- A `node-cron` scheduler that runs the ROI process daily at midnight.
+# Features
+- MongoDB/Mongoose schemas for users, investments, referrals, level income, and ROI history.
+- Secure JWT-based authentication and authorization.
+- Investment management APIs.
+- Dashboard APIs for investment summaries, ROI earnings, and referral income tracking.
+- Multi-level referral tree management and visualization.
+- Automated daily ROI and referral income calculations.
+- React-based dashboard with charts, tables, statistics, and loading states.
+- Nested referral tree display for network tracking.
+- Scheduled background processing using node-cron.
 
 ## Quick Start
 
