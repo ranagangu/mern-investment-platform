@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "install:all": "npm.cmd install --prefix server && npm.cmd install --prefix client",
-    "dev": "concurrently \"npm.cmd run dev --prefix server\" \"npm.cmd run dev --prefix client\"",
-    "dev:server": "npm.cmd run dev --prefix server",
-    "dev:client": "npm.cmd run dev --prefix client",
-    "start": "npm.cmd start --prefix server",
-    "build": "npm.cmd run build --prefix client"
-  },
+"scripts": {
+  "install:all": "npm install --prefix server && npm install --prefix client",
+  "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+  "dev:server": "npm run dev --prefix server",
+  "dev:client": "npm run dev --prefix client",
+  "start": "npm start --prefix server",
+  "build": "npm run build --prefix client"
+}
   "devDependencies": {
     "concurrently": "^9.1.2"
   }
